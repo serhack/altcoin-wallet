@@ -3,6 +3,8 @@ AltCoinWallet
 
 AltCoinWallet is a secure opensource online altcoin wallet that works with practically any altcoin.
 
+Please fork PHP working version for XMR Monero! Thanks! 
+
 Setup: 
 
 1) Setup coin daemons, mySQL & phpmyadmin on the server
