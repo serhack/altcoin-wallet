@@ -2,7 +2,7 @@
 <?php //PLEASE DO NOT REMOVE OR CHANGE THE POWERED BY LINK. THIS IS THE ONLY RECOGNITION I ASK FOR ?>
             </div>
         </div>
-<b><center><p><a href="http://moneta.io/">What is MONETA</a></p>
+
 
 
 </center></b>

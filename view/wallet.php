@@ -37,10 +37,7 @@ Hello, <strong><?php echo $user_session; ?></strong>! <?php if ($admin) {?><stro
     <h2>Send</h2>
     <!-------------Withdraw----------------->
 
-    <p>Send funds:    <button type="button" class="btn btn-default" style="zoom:75%;" id="donate">Donate to <?=$fullname?> developers!</button></p>
-<br />
-<br />
-<p id="donateinfo" style="display: none;">Type the amount you want to donate and click SEND</p>
+
 <form action="index.php" method="POST" class="clearfix" id="withdrawform">
     <input type="hidden" name="action" value="withdraw" />
     <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
@@ -152,10 +149,7 @@ if ($admin)
         <input type="hidden" name="action" value="logout" />
         <button type="submit" class="btn btn-default"><span>LOGOUT</span></button>
 </form>
-<form action="index.php" method="POST">
-<input type="hidden" name="action" value="support" action="index.php"/>
-<button type="submit" class="btn btn-default"><span>SUPPORT</span></button>
-</form>
+
 <br>
 
 <br />

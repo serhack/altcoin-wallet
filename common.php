@@ -17,23 +17,23 @@ function satoshitrim($satoshitrim) {
    return rtrim(rtrim($satoshitrim, "0"), ".");
 }
 
-$server_url = "http://wallet.moneta.io/";  // website url
+$server_url = "http://localhost/wallet/";  // website url
 
 $db_host = "localhost";
-$db_user = " ";
-$db_pass = " ";
-$db_name = " ";
+$db_user = "root";
+$db_pass = "X7Q8ftCZnM";
+$db_name = "wallet";
 
 $rpc_host = "127.0.0.1";
-$rpc_port = "10332";
-$rpc_user = "monetarpc";
-$rpc_pass = "your_password";
+$rpc_port = "8332";
+$rpc_user = "rpc_user";
+$rpc_pass = "rpc_pass";
 
 
-$fullname = "MONETA"; //Website Title (Do Not include 'wallet')
-$short = "MONET"; //Coin Short (BTC)
-$blockchain_url = "http://explorer.moneta.io/_block/index.php?transaction="; //Blockchain Url
-$support = "support@moneta.io"; //Your support eMail
+$fullname = ""; //Website Title (Do Not include 'wallet')
+$short = ""; //Coin Short (BTC)
+$blockchain_url = "https://blockchain.info/tx/"; //Blockchain Url
+$support = "email"; //Your support eMail
 $hide_ids = array(1); //Hide account from admin dashboard
-$donation_address = "MDosfdRi1uefbULktVYeU9PjD44tKJtFHc"; //Donation Address
+$donation_address = "1GcN4FSHaDizu2hmtnsmjduZ2dBoJWej5E"; //Donation Address
 ?>

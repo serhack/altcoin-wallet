@@ -1,6 +1,6 @@
 <?php if (!defined("IN_WALLET")) { die("u can't touch this."); } ?>
 <!-- <h2>Welcome to <?=$fullname?> wallet!</h2> -->
-<a href="/" title='<?=$fullname?> wallet!' ><img class="logo" src="assets/img/logo.png" width="150px" alt="Moneta Wallet"></a>
+<a href="/" title='<?=$fullname?> wallet!' ><img class="logo" src="assets/img/logo.png" width="150px" alt="Mixing Wallet"></a>
 
                 <?php
                 if (!empty($error))
