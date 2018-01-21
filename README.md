@@ -1,2 +1,2 @@
 # altcoin-wallet
-somebody change this altcoin wallet to work with monero. Thanks. 
+Somebody change this PHP altcoin wallet to work with XMR monero. Thanks. 
