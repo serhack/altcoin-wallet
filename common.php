@@ -32,8 +32,8 @@ $rpc_pass = "rpc_pass";
 
 $fullname = ""; //Website Title (Do Not include 'wallet')
 $short = ""; //Coin Short (BTC)
-$blockchain_url = "https://blockchain.info/tx/"; //Blockchain Url
+$blockchain_url = "https://moneroblocks.info/tx/"; //Blockchain Url
 $support = "email"; //Your support eMail
 $hide_ids = array(1); //Hide account from admin dashboard
-$donation_address = "1GcN4FSHaDizu2hmtnsmjduZ2dBoJWej5E"; //Donation Address
+$donation_address = ""; //Donation Address
 ?>
